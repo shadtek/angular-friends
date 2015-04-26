@@ -5,6 +5,8 @@ app.controller('ctrl', function($scope){
 	$scope.searchName = []
 	$scope.searchLocation = []
 
+	
+
 	//start friends list	
 	$scope.friends = [
 	    {
