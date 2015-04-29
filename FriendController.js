@@ -1,11 +1,7 @@
 var app = angular.module('friendApp');
 app.controller('ctrl', function($scope){
 
-	$scope.searchAny = []
-	$scope.searchName = []
-	$scope.searchLocation = []
-
-	
+	$scope.searchTerm = ""
 
 	//start friends list	
 	$scope.friends = [
